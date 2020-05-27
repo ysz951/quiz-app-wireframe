@@ -1,0 +1,18 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item{
+    flex: 1;
+}
+
+
+@media only screen and (min-width: 720px) {
+    .group{
+        flex-direction: row;    
+        align-items: center;
+    }
+}
+
